@@ -1,8 +1,7 @@
 ---
 layout: default
-title: PR0101. Preparación del entorno
+title: Preparacion del entorno
 nav_order: 1
-nav_exclude: false
 ---
 
 
