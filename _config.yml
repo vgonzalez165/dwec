@@ -1,1 +1,16 @@
+
+
+title: Prácticas de Desarrollo Web en Entorno Cliente
+description: Prácticas del módulo DWEC de CFGS DAW del IES San Andrés.
 remote_theme: rundocs/jekyll-rtd-theme
+
+
+# Theme settings:
+site_author: Víctor J. González Rodríguez
+repo_url: "https://github.com/carlosperate/jekyll-theme-rtd"
+edit_on_github: true
+# github_docs_folder: true
+sticky_navigation: true
+prev_next_buttons_location: bottom
+search_enabled: true
+hljs_style: github-gist
