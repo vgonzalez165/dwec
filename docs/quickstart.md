@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 🚀 Quick Start With GitHub Pages
+title: 🚀 Entrega de las prácticas
 nav_order: 1
 ---
 
