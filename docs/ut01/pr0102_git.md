@@ -1,8 +1,7 @@
 ---
 layout: default
-title: PR0102. Git
+title: Git
 nav_order: 2
-nav_exclude: false
 ---
 
 # PR0102: Git
