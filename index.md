@@ -1,16 +1,9 @@
 ---
 layout: default
-title: Local Development Index Page
-nav_order: 1
+title: Index
+nav_exclude: true
 ---
 
-# Local Development Index Page
+# Read The Docs Theme for Jekyll and GitHub Pages
 
-This index page is only visible if developing the theme as Jekyll is served
-from the repository top directory.
-
-The Docs folder index page can be reached following
-[this link](docs/index.html).
-
-In the normal GitHub Pages deployment the Docs index can be reached clicking
-on the home link at the top of the left navigation bar.
+Esta es la página principal
