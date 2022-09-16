@@ -1,3 +1,9 @@
+<link rel="stylesheet"
+      href="//unpkg.com/@highlightjs/cdn-assets@11.6.0/styles/default.min.css">
+<script src="//unpkg.com/@highlightjs/cdn-assets@11.6.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+
 # PR0101: Preparación del entorno
 
 ## Enunciado
@@ -26,6 +32,16 @@ let now = today.toLocaleString();
 console.log('Bienvenido al curso 2022-23 de Desarrollo Web en Entorno Cliente');
 console.log(now);
 ```
+<pre>
+    <code class="language-javascript">
+        let today = new Date();
+        let now = today.toLocaleString();
+        console.log('Bienvenido al curso 2022-23 de Desarrollo Web en Entorno Cliente');
+        console.log(now);
+    </code>
+</pre>
+
+
 
 Debes ejecutarlo:
 
