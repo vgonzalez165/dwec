@@ -1,10 +1,10 @@
-title: Read The Docs Jekyll Theme
-description: Port of the Read the Docs theme to Jekyll to use with GitHub Pages.
+title: Prácticas de Desarrollo Web en Entorno Cliente
+description: Prácticas del módulo DWEC del CFGS Desarrollo de Aplicaciones Web
 remote_theme: carlosperate/jekyll-theme-rtd
 
 # Theme settings:
-site_author: Carlos Pereira Atencio
-repo_url: "https://github.com/carlosperate/jekyll-theme-rtd"
+site_author: Víctor J. González Rodríguez
+repo_url: "https://github.com/vgonzalez165/dwec"
 edit_on_github: true
 github_docs_folder: true
 sticky_navigation: true
