@@ -1,11 +1,10 @@
 ---
 layout: default
-title: UT03. Objetos y tipos de datos. Opcionales
+title: UT03. Prácticas no obligatorias
 nav_order: 4
 ---
 
-# UT03. Objetos y tipos de datos 
-
+# UT03. Prácticas no obligatorias
 
 ## Prácticas opcionales de cadenas
 
