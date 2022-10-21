@@ -6,8 +6,64 @@ nav_order: 4
 
 # UT03. Objetos y tipos de datos 
 
-## Prácticas opcionales
 
+## Prácticas opcionales de cadenas
+
+### PR0312: Cadenas (VI)
+
+**<span style="color: #ED7117">📣 Opcional</span>**
+
+Crea una función `isHeterograma(str)` que devuelva `true` si la cadena pasada como parámetro es un **heterograma** y `false` en caso contrario. 
+
+Un [heterograma](https://es.wikipedia.org/wiki/Heterograma) es una palabra o frase que no tiene ninguna letra repetida.
+
+**Ejemplo**: 
+
+```javascript
+isHeterograma('Villabalter');   // false (se repite la a y la l)
+isHeterograma('Victor');         // true
+``` 
+
+**Fuente**: [CodeWars: Isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1)
+
+---
+
+### PR0313: Cadenas (VII)
+
+**<span style="color: #ED7117">📣 Opcional</span>**
+
+Crea una función `isIsograma(str)` que devuelva `true` si la cadena `str` es un **isograma**. 
+
+Un [isograma](https://es.wikipedia.org/wiki/Heterograma) es una cadena o frase en el que cada letra aparece repetida el mismo número de veces (un *heterograma* es un caso especial de *isograma* en el que cada letra se repite una vez).
+
+**Ejemplo**: 
+
+```javascript
+isIsograma('acondicionar');         // true
+isIsograma('papelera escritura');   // true
+```
+
+---
+
+### PR0314: Cadenas (VIII)
+
+**<span style="color: #ED7117">📣 Opcional</span>**
+
+Crea una función `isPangrama(str)` que devuelva `true` si la palabra pasada como parámetro es un **pangrama**.
+
+Un [pangrama](https://es.wikipedia.org/wiki/Pangrama) es un texto que usa todas las letras del alfabeto.
+
+**Ejemplo**:
+
+```javascript
+isPangrama('El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.');    // true
+isPangrama('Un jugoso zumo de piña y kiwi bien frío es exquisito y no lleva alcohol.');     // true
+```
+
+--- 
+
+
+## Prácticas opcionales de arrays
 
 ### PR0321: Arrays (VII)
 
@@ -23,7 +79,6 @@ getUpperCase( ['aBc', 'BE', 'hfa', 'AEO'] );        // [ 'BE', 'AEO ]
 
 ---
 
-
 ### PR0322: Arrays (VIII)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
@@ -38,7 +93,6 @@ maxString( ['hola', 'victor', 'villabalter', 'IES'] );      // 'villabalter'
 
 ---
 
-
 ### PR0323: Arrays (IX)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
@@ -52,7 +106,15 @@ getNames( ['Victor González Rodríguez', 'Pepe Pérez Fernández'] );      // [
                                                                         //   { nombre: 'Pepe', apellidos: 'Pérez Fernández' } ]
 ```
 
-### PR0331: Prácticas opcionales (I)
+
+## Prácticas opcionales de arrays de objetos
+
+### TODO
+
+
+## Prácticas opcionales de repaso
+
+### PR0331: Repaso (I)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
@@ -69,7 +131,7 @@ reverseWords('IES Villabalter')  // 'SEI retlaballiV'
 
 ---
 
-### PR0332: Prácticas opcionales (II)
+### PR0332: Repaso (II)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
@@ -83,7 +145,7 @@ arrayDiff([1,2],[1]);       // [2]
 
 ---
 
-### PR0333: Prácticas opcionales (II)
+### PR0333: Repaso (II)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
