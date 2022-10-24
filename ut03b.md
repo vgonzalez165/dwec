@@ -61,7 +61,6 @@ isPangrama('Un jugoso zumo de piña y kiwi bien frío es exquisito y no lleva al
 
 --- 
 
-
 ## Prácticas opcionales de arrays
 
 ### PR0321: Arrays (VII)
@@ -108,7 +107,9 @@ getNames( ['Victor González Rodríguez', 'Pepe Pérez Fernández'] );      // [
 
 ## Prácticas opcionales de arrays de objetos
 
-### TODO
+En las siguientes prácticas vamos a trabajar con arrays de objetos algo más complejos como los que pueden ser los devueltos por una API
+
+### PR0331: Repaso arrays de objetos (I)
 
 
 ## Prácticas opcionales de repaso
@@ -159,3 +160,66 @@ Crea una función `digitalRoot(a)` que reciba como parámetro un número y devue
     493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
 ```
 
+**Fuente**: [CodeWars: Digital Root](https://www.codewars.com/kata/541c8630095125aba6000c00)
+
+
+---
+
+### PR0334: Repaso(III)
+
+Desarrolla una función `findNextPower( n, pow)` que, dado un número `n`, devuelva la potencia `pow` de otro número más próxima que sea superior a `n`.
+
+**Ejemplo**:
+
+```javascript
+findNextPower( 70, 4 );         // 81, ya que es 81 = 3^4
+findNextPower( 12385, 3 );      // 13824
+```
+
+**Fuente**: [CodeWars: Find Next Power](https://www.codewars.com/kata/56ba65c6a15703ac7e002075)
+
+---
+
+### PR0335: Repaso (IV)
+
+Diseña una función `maxSequence( arr )` que tome un array de enteros (positivos o negativos) como entrada y devuelva el subarray cuya suma sea mayor.
+
+**Ejemplo**:
+
+```javascript
+maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])    // Devuelve 6, que es la suma del subarray [4, -1, 2, 1]
+```
+
+**Fuente**: [CodeWars: Maximum Subarray Sum](https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c)
+
+--
+
+### PR0336: Repaso (V)
+
+Crea una función `XO( str )` que tome como parámetro una cadena y devuelva `true` si la cadena tiene el mismo número de `X` que de `O` (sin distinguir entre mayúsculas y minúsculas). La cadena puede tener cualquier otro carácter que se ignorará.
+
+```javascript
+XO("ooxx")    // true
+XO("xooxx")   // false
+XO("ooxXm")   // true
+XO("zpzpzpp") // true 
+XO("zzoo")    // false
+```
+
+**Fuente**: [CodeWars: Exes and Ohs](https://www.codewars.com/kata/55908aad6620c066bc00002a)
+
+--- 
+
+### PR0337: Repaso (VI)
+
+Crea una función `cakes( recipe, ingredients )` donde `recipe` es un objeto con los ingredientes y cantidades que hacen falta para realizar una receta y `ingredients` es otro objeto con los ingredientes que hay disponibles. La función debe devolver un número que corresponderá con el número de recetas que se pueden realizar con los ingredientes disponibles.
+
+```javascript
+cakes(  {flour: 500, sugar: 200, eggs: 1},
+        {flour: 1200, sugar: 1200, eggs: 5, milk: 200});   // Devuelve 2
+
+cakes(  {apples: 3, flour: 300, sugar: 150, milk: 100, oil: 100}, 
+        {sugar: 500, flour: 2000, milk: 2000});     // Devuelve 0
+```
+
+**Fuente**: [CodeWars: Pete the Baker](https://www.codewars.com/kata/525c65e51bf619685c000059)
