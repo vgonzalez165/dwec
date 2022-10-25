@@ -141,7 +141,7 @@ arrayDiff([1,2],[1]);       // [2]
 
 ---
 
-### PR0333: Repaso (II)
+### PR0333: Repaso (III)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
@@ -161,7 +161,7 @@ Crea una función `digitalRoot(a)` que reciba como parámetro un número y devue
 
 ---
 
-### PR0334: Repaso(III)
+### PR0334: Repaso (IV)
 
 Desarrolla una función `findNextPower( n, pow)` que, dado un número `n`, devuelva la potencia `pow` de otro número más próxima que sea superior a `n`.
 
@@ -176,7 +176,7 @@ findNextPower( 12385, 3 );      // 13824
 
 ---
 
-### PR0335: Repaso (IV)
+### PR0335: Repaso (V)
 
 Diseña una función `maxSequence( arr )` que tome un array de enteros (positivos o negativos) como entrada y devuelva el subarray cuya suma sea mayor.
 
@@ -190,7 +190,7 @@ maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])    // Devuelve 6, que es la suma de
 
 --
 
-### PR0336: Repaso (V)
+### PR0336: Repaso (VI)
 
 Crea una función `XO( str )` que tome como parámetro una cadena y devuelva `true` si la cadena tiene el mismo número de `X` que de `O` (sin distinguir entre mayúsculas y minúsculas). La cadena puede tener cualquier otro carácter que se ignorará.
 
@@ -206,7 +206,7 @@ XO("zzoo")    // false
 
 --- 
 
-### PR0337: Repaso (VI)
+### PR0337: Repaso (VII)
 
 Crea una función `cakes( recipe, ingredients )` donde `recipe` es un objeto con los ingredientes y cantidades que hacen falta para realizar una receta y `ingredients` es otro objeto con los ingredientes que hay disponibles. La función debe devolver un número que corresponderá con el número de recetas que se pueden realizar con los ingredientes disponibles.
 
