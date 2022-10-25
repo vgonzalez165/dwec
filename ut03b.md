@@ -4,7 +4,8 @@ title: UT03. Prácticas no obligatorias
 nav_order: 4
 ---
 
-# UT03. Prácticas no obligatorias
+# UT03. Objetos y tipos de datos (Opcionales)
+
 
 ## Prácticas opcionales de cadenas
 
@@ -61,6 +62,7 @@ isPangrama('Un jugoso zumo de piña y kiwi bien frío es exquisito y no lleva al
 
 --- 
 
+
 ## Prácticas opcionales de arrays
 
 ### PR0321: Arrays (VII)
@@ -104,12 +106,6 @@ getNames( ['Victor González Rodríguez', 'Pepe Pérez Fernández'] );      // [
                                                                         //   { nombre: 'Pepe', apellidos: 'Pérez Fernández' } ]
 ```
 
-
-## Prácticas opcionales de arrays de objetos
-
-En las siguientes prácticas vamos a trabajar con arrays de objetos algo más complejos como los que pueden ser los devueltos por una API
-
-### PR0331: Repaso arrays de objetos (I)
 
 
 ## Prácticas opcionales de repaso
