@@ -40,6 +40,16 @@ Las fotos las vamos a obtener de [Lorem Picsum](https://picsum.photos/), una pá
 
 Implementa una **calculadora** que pueda ser manipulada tanto con el teclado como con el ratón. Puedes añadirle todas las funciones que quieras, pero por lo menos debería poder realizar las operaciones básicas de suma, resta, multiplicación y división.
 
+---
+
 ### OPT0503: Caída de letras
 
+Vamos a hacer un pequeño juego para comprobar la agilidad en mecanografía. Por la parte superior de la pantalla irán cayendo letras y el usuario deberá pulsar la tecla correspondiente antes de que lleguen a la parte inferior.
+
+Algunas ideas a tener en cuenta:
+
+- Lo primero que te preguntarás es cómo hacer para que algo se mueva por pantalla. Como la idea es utilizar lo que hemos aprendido hasta ahora lo haremos modificando el posicionamiento de un elemento `<div>`. Los pasos son los siguientes:
+  - Creamos un elemento HTML con **posicionamiento relativo**. Recuerda que este tipo de posicionamiento permite situar al elemento HTML con respecto al elemento que lo contiene (que será el área de juego), esta posición la determinamos con los atributos CSS `top`, `bottom`, `left` y `right`.
+  - En principio situamos el elemento fuera de la vista del usuario con un valor de `top` negativo.
+  - 
 
