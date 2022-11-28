@@ -6,6 +6,8 @@ nav_order: 8
 
 # UT05. Eventos y formularios (Opcionales)
 
+## Eventos de ratón y teclado
+
 ### OPT0501: Scroll infinito
 
 **<span style="color: #ED7117">📣 Opcional</span>**
