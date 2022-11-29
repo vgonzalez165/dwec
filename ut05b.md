@@ -78,6 +78,21 @@ const elapsedTime = endTime.getTime() - startTime.getTime();    // Tiempo transc
 
 ---
 
+### OPT0504: ToolTip
+
+Vamos a implementar un tooltip en JavaScript, un **tooltip** es el típico cuadradito con un texto que se muestra sobre el cursor al situarlo encima de un elemento con algún tipo de información sobre el mismo. Es muy sencillo crear tooltips con CSS con la pseudo-clase `hover`, pero si queremos tener más control sobre los mismos o sobre su contenido debemos recurrir a JavaScript.
+
+Vamos a implementar la lógica para que se muestre automáticamente un tooltipo en todos los elementos de la página que tengan asignado un atributo `data-tooltip`, siendo el valor de dicho atributo lo que se mostrará dentro del tooltip.
+
+Algunas ideas a tener en cuenta:
+
+- Necesitarás utilizar los eventos `mouseover` y `mouseout`, añadiendo *listeners* para ambos tipos de evento a todos los elementos de la página que incluyan el atributo `data-tooltip`. Es decir, no hay que indicar expresamente qué elementos van a tener tooltip, sino que simplemente añadiendo el atributo `data-tooltip` ya se le aplica dicha funcionalidad al elemento.
+- Al entrar el ratón en el elemento se creará un nuevo elemento con el contenido del tooltip. Hay que calcular la posición en que se encuentra el elemento para situar el tooptipo por encima de él (dejando 5 píxeles de espacio) y a ser posible centrado.
+- Hay que tener en cuenta los tamaños del área de visualización para que el *tooltip* no sobresalga de los límites de la ventana.
+
+
+---
+
 ### OPT0505: Caída de letras
 
 Vamos a hacer un pequeño juego para comprobar la agilidad en mecanografía. Por la parte superior de la pantalla irán cayendo letras y el usuario deberá pulsar la tecla correspondiente antes de que lleguen a la parte inferior.
@@ -93,21 +108,8 @@ TODO: Incompleto
 
 ---
 
-### OPT0504: Velocidad en mecanografía
+### OPT0506: Velocidad en mecanografía
 
 
 
 
-
-
-### OPT0506: ToolTip
-
-Vamos a implementar un tooltip en JavaScript, un **tooltip** es el típico cuadradito con un texto que se muestra sobre el cursor al situarlo encima de un elemento con algún tipo de información sobre el mismo. Es muy sencillo crear tooltips con CSS con la pseudo-clase `hover`, pero si queremos tener más control sobre los mismos o sobre su contenido debemos recurrir a JavaScript.
-
-Vamos a implementar la lógica para que se muestre automáticamente un tooltipo en todos los elementos de la página que tengan asignado un atributo `data-tooltip`, siendo el valor de dicho atributo lo que se mostrará dentro del tooltip.
-
-Algunas ideas a tener en cuenta:
-
-- Necesitarás utilizar los eventos `mouseover` y `mouseout`, añadiendo *listeners* para ambos tipos de evento a todos los elementos de la página que incluyan el atributo `data-tooltip`. Es decir, no hay que indicar expresamente qué elementos van a tener tooltip, sino que simplemente añadiendo el atributo `data-tooltip` ya se le aplica dicha funcionalidad al elemento.
-- Al entrar el ratón en el elemento se creará un nuevo elemento con el contenido del tooltip. Hay que calcular la posición en que se encuentra el elemento para situar el tooptipo por encima de él (dejando 5 píxeles de espacio) y a ser posible centrado.
-- Hay que tener en cuenta los tamaños del área de visualización para que el *tooltip* no sobresalga de los límites de la ventana.
