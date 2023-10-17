@@ -9,7 +9,7 @@ nav_order: 4
 
 ## Prácticas opcionales de cadenas
 
-### PR0312: Cadenas (VI)
+### OPT0301: Cadenas (VI)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
@@ -28,7 +28,7 @@ isHeterograma('Victor');         // true
 
 ---
 
-### PR0313: Cadenas (VII)
+### OPT0302: Cadenas (VII)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
@@ -45,7 +45,7 @@ isIsograma('papelera escritura');   // true
 
 ---
 
-### PR0314: Cadenas (VIII)
+### OPT0303: Cadenas (VIII)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
@@ -65,7 +65,7 @@ isPangrama('Un jugoso zumo de piña y kiwi bien frío es exquisito y no lleva al
 
 ## Prácticas opcionales de arrays
 
-### PR0321: Arrays (VII)
+### OPT0304: Arrays (VII)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
@@ -79,7 +79,7 @@ getUpperCase( ['aBc', 'BE', 'hfa', 'AEO'] );        // [ 'BE', 'AEO ]
 
 ---
 
-### PR0322: Arrays (VIII)
+### OPT0305: Arrays (VIII)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
@@ -93,7 +93,7 @@ maxString( ['hola', 'victor', 'villabalter', 'IES'] );      // 'villabalter'
 
 ---
 
-### PR0323: Arrays (IX)
+### OPT0306: Arrays (IX)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
@@ -110,7 +110,7 @@ getNames( ['Victor González Rodríguez', 'Pepe Pérez Fernández'] );      // [
 
 ## Prácticas opcionales de repaso
 
-### PR0331: Repaso (I)
+### OPT0307: Repaso (I)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
@@ -127,7 +127,7 @@ reverseWords('IES Villabalter')  // 'SEI retlaballiV'
 
 ---
 
-### PR0332: Repaso (II)
+### OPT0308: Repaso (II)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
@@ -141,7 +141,7 @@ arrayDiff([1,2],[1]);       // [2]
 
 ---
 
-### PR0333: Repaso (III)
+### OPT0309: Repaso (III)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
@@ -161,7 +161,7 @@ Crea una función `digitalRoot(a)` que reciba como parámetro un número y devue
 
 ---
 
-### PR0334: Repaso (IV)
+### OPT0310: Repaso (IV)
 
 Desarrolla una función `findNextPower( n, pow)` que, dado un número `n`, devuelva la potencia `pow` de otro número más próxima que sea superior a `n`.
 
@@ -176,7 +176,7 @@ findNextPower( 12385, 3 );      // 13824
 
 ---
 
-### PR0335: Repaso (V)
+### OPT0311: Repaso (V)
 
 Diseña una función `maxSequence( arr )` que tome un array de enteros (positivos o negativos) como entrada y devuelva el subarray cuya suma sea mayor.
 
@@ -190,7 +190,7 @@ maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])    // Devuelve 6, que es la suma de
 
 --
 
-### PR0336: Repaso (VI)
+### OPT0312: Repaso (VI)
 
 Crea una función `XO( str )` que tome como parámetro una cadena y devuelva `true` si la cadena tiene el mismo número de `X` que de `O` (sin distinguir entre mayúsculas y minúsculas). La cadena puede tener cualquier otro carácter que se ignorará.
 
@@ -206,7 +206,7 @@ XO("zzoo")    // false
 
 --- 
 
-### PR0337: Repaso (VII)
+### OPT0313: Repaso (VII)
 
 Crea una función `cakes( recipe, ingredients )` donde `recipe` es un objeto con los ingredientes y cantidades que hacen falta para realizar una receta y `ingredients` es otro objeto con los ingredientes que hay disponibles. La función debe devolver un número que corresponderá con el número de recetas que se pueden realizar con los ingredientes disponibles.
 
