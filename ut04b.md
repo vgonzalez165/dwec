@@ -1,12 +1,12 @@
 ---
 layout: default
 title: UT04. Document Object Model. DOM (Opcionales)
-nav_order: 8
+nav_order: 6
 ---
 
-# UT05. Document Object Model. DOM (Opcionales)
+# UT04. Document Object Model. DOM (Opcionales)
 
-## OPT0501: Frutería App (II)
+## OPT0401: Frutería App (II)
 
 **<span style="color: #ED7117">📣 Opcional</span>**
 
