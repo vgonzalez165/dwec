@@ -4,31 +4,40 @@ title: Index
 nav_exclude: true
 ---
 
-# Prácticas DWEC
+# Prácticas obligatorias
 
 **UT01: Introducción a Javascript**
-- [Prácticas](./ut01.md)
+- [Prácticas](./01_introducción_js.md)
 
 **UT02: Fundamentos del lenguaje**
-- [Prácticas](./ut02.md)
+- [Prácticas](./02_fundamentos_js.md)
 
 **UT03: Objetos y tipos de datos**
-- [Prácticas](./ut03.md)
-- [Opcionales](./ut03b.md)
+- [Prácticas](./03_objetos_tipos_de_datos.md)
 
 **UT04: Typescript**
-- [Prácticas](./ut04.md)
+- [Prácticas](./04_dom.md)
 
 **UT05: Modelo de objetos del documento. DOM**
-- [Prácticas](./ut05.md)
-- [Opcionales](./ut05b.md)
+- [Prácticas](./05_typescript.md)
 
 **UT06: Interacción con el usuario. Eventos y formularios**
-- [Prácticas](./ut06.md)
-- [Opcionales](./ut06b.md)
+- [Prácticas](./06_eventos_formularios.md)
 
 **UT07: Solicitudes de red**
-- [Prácticas](./ut07.md)
+- [Prácticas](./07_solicitudes_de_red.md)
 
 **UT08: VueJS Framework**
 - [Prácticas](./ut08.md)
+
+
+# Prácticas opcionales
+
+**UT03: Objetos y tipos de datos**
+- [Opcionales](./op_03_objetos_tipos_de_datos.md)
+
+**UT05: Modelo de objetos del documento. DOM**
+- [Opcionales](./op_04_dom.md)
+
+**UT06: Interacción con el usuario. Eventos y formularios**
+- [Opcionales](./op_06_eventos.md)
