@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 📃 Prácticas obligatorias
+title: 📃 ⇝ Prácticas obligatorias ⇜
 nav_order: 1
 ---
 
