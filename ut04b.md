@@ -1,7 +1,7 @@
 ---
 layout: default
 title: UT04. Document Object Model. DOM (Opcionales)
-nav_order: 6
+nav_order: 24
 ---
 
 # UT04. Document Object Model. DOM (Opcionales)
