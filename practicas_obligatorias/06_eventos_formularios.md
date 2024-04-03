@@ -47,7 +47,7 @@ Vamos a hacer un pequeño juego que nos servirá para mejorar nuestros conocimie
 Una versión muy básica del juego la puedes ver en el siguiente vídeo:
 
 <video width="640" controls>
-    <source src="assets/videos/pr0504.mp4" type="video/mp4">
+    <source src="../assets/videos/pr0504.mp4" type="video/mp4">
     Tu navegador no soporta la reproducción de vídeo
 </video>
 
@@ -71,7 +71,7 @@ Vamos a mejorar el programa anterior. Para ello, en esta práctica tienes que re
 
 Como vas a hacer algo un poco más complejo, estaría bien que prepararas una interfaz más completa. Puedes hacerla como quieras, pero si necesitas un poco de inspiración en la siguiente imagen tienes una sugerencia de cómo podría ser:
 
-![Interfaz](assets/pr0505/mockup.jpg)
+![Interfaz](../assets/pr0505/mockup.jpg)
 
 **Consejos para trabajar con tiempo en JavaScript**
 
@@ -89,8 +89,8 @@ En este caso necesitarás la primera. Básicamente, la idea será:
 
 Si prefieres centrarte en JavaScript y no tener que preocuparte por CSS, puedes descargarki de aquí:
 
-- [HTML](assets/pr0505/index.html)
-- [CSS](assets/pr0505/style.css)
+- [HTML](../assets/pr0505/index.html)
+- [CSS](../assets/pr0505/style.css)
 
 
 ---
@@ -102,7 +102,7 @@ Ahora que ya estarás familiarizado con los eventos del ratón, vamos a incluir 
 El resultado final puede ser algo parecido a lo que se muestra en el siguiente vídeo:
 
 <video width="640" controls>
-    <source src="assets/videos/pr0506.mp4" type="video/mp4">
+    <source src="../assets/videos/pr0506.mp4" type="video/mp4">
     Tu navegador no soporta la reproducción de vídeo
 </video>
 
@@ -115,10 +115,10 @@ El resultado final puede ser algo parecido a lo que se muestra en el siguiente v
 
 **Recursos**
 
-- [Listado de palabras](assets/pr0506/words.js)
-- [Imágenes](assets/pr0506/imgs/hangman.zip)
-- [CSS](assets/pr0506/style.css)
-- [Estructura HTML](assets/pr0506/index.html)
+- [Listado de palabras](../assets/pr0506/words.js)
+- [Imágenes](../assets/pr0506/imgs/hangman.zip)
+- [CSS](../assets/pr0506/style.css)
+- [Estructura HTML](../assets/pr0506/index.html)
 
 
 ## Formularios
@@ -135,7 +135,7 @@ Crea una página con un formulario que tendrá tres campos: correo electrónico,
 - Cuando el usuario pulse el botón de enviar se mostrará por consola el correo electrónico y la contraseña del usuario.
 - En la siguiente imagen puedes hacerte una idea de como dividir los tipos de contraseñas según la seguridad. Fuente: [digg.com](https://digg.com/technology/link/how-long-it-takes-to-get-password-hacked-1IvDFspF6p)
 
-[Contraseñas](assets/pr0507/bruteforce.png)
+[Contraseñas](../assets/pr0507/bruteforce.png)
 
 ---
 
@@ -145,9 +145,9 @@ Algo que seguro que has visto en muchos formularios es que, en función del valo
 
 Por ejemplo, las siguientes capturas corresponden al formulario de recogida de datos de [Red SARA](https://rec.redsara.es). Ahí se puede ver que el selector para introducir la provincia se rellena una vez que se ha escogido un país, y, a su vez, el selector para la localidad se rellena cuando se ha escogido una provincia.
 
-![Ejemplo 1](assets/pr0508/desp01.jpg)
-![Ejemplo 2](assets/pr0508/desp02.jpg)
-![Ejemplo 3](assets/pr0508/desp03.jpg)
+![Ejemplo 1](../assets/pr0508/desp01.jpg)
+![Ejemplo 2](../assets/pr0508/desp02.jpg)
+![Ejemplo 3](../assets/pr0508/desp03.jpg)
 
 En esta práctica tienes que hacer un formulario que imite ese comportamiento. Las características del mismo serán:
 
@@ -164,7 +164,7 @@ Vamos a hacer una ventana de login o registro que se muestre en una **ventana mo
 
 Vamos a hacer algo semejante a lo que se muestra en la siguiente imagen (Fuente de la imagen: [csshint.com](https://csshint.com/login-signup-modal-window/))
 
-![Modal login](assets/pr0509/modal_login.gif)
+![Modal login](../assets/pr0509/modal_login.gif)
 
 Tienes que tener en cuenta:
 

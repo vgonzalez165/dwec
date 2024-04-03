@@ -20,7 +20,7 @@ Para realizar este efecto hay que tener encuenta algunas propiedades del nodo DO
 - `element.scrollTop`: indica el número de píxeles que el contenido del elemento ha sido desplazado hacia arriba, es decir, la distancia desde el límite superior de un elemento al límite superior de su contenido visible.
 - `element.clientHeight`: devuelve la altura del elemento en píxeles.
 
-![Scroll Properties](assets/opt0501/scrollProperties.png)
+![Scroll Properties](../assets/opt0501/scrollProperties.png)
 
 Teniendo esto en cuenta el proceso es muy sencillo:
 
@@ -30,7 +30,7 @@ Teniendo esto en cuenta el proceso es muy sencillo:
 - En ese momento cargamos los siguientes elementos y los añadimos al final de la página, lo que modificará el tamaño de `scrollHeight`, por lo que volvemos a empezar.
 - Antes de cargar los siguientes elementos puedes añadir un GIF de carga al final de la página para que el usuario tenga algún tipo de realimentación que le indique que se están cargando más elementos.
 
-![GIF de carga](assets/opt0501/loading.gif)
+![GIF de carga](../assets/opt0501/loading.gif)
 
 Ahora pon en práctica esto creando una pequeña página que muestre un scroll infinito. Vamos a suponer que queremos mostrar una **galería de fotos** que se irán mostrando infinitamente a medida que hagamos scroll.
 
