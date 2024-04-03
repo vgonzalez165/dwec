@@ -15,7 +15,7 @@ Vamos a seguir trabajando con la frutería con la que empezamos en la anterior p
 El resultado final debe ser algo parecido a lo que se muestra en el siguiente vídeo:
 
 <video width="640" controls>
-    <source src="assets/videos/fruteria_01.mp4" type="video/mp4">
+    <source src="../assets/videos/fruteria_01.mp4" type="video/mp4">
     Tu navegador no soporta la reproducción de vídeo
 </video>
 

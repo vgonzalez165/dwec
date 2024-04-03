@@ -13,7 +13,7 @@ nav_order: 5
 
 En esta práctica tienes que crear la siguiente página Web, pero generándola con JavaScript.
 
-![PR0401](assets/pr0401/pr0401.jpg)
+![PR0401](../assets/pr0401/pr0401.jpg)
 
 Para ello partes de este código HTML.
 
@@ -43,7 +43,7 @@ Puedes utilizar la hoja de estilos que tienes [aquí](assets/pr0401/pr0401.css),
 
 Vamos a hacer algo más elaborado, en esta ocasión debes generar mediante JavaScript una página como la siguiente (por brevedad se ha recordato pero incluirá los 12 meses):
 
-![PR0402](assets/pr0402/pr0402.jpg)
+![PR0402](../assets/pr0402/pr0402.jpg)
 
 Igual que en la anterior práctica partes del armazón HTML:
 
@@ -130,7 +130,7 @@ Crea una página Web que únicamente contenga un botón y, cada vez que se pulse
 
 En esta práctica parte de una página web como la siguiente:
 
-![PR0406](assets/pr0406/layout_pr0406.jpg)
+![PR0406](../assets/pr0406/layout_pr0406.jpg)
 
 Realiza los pasos necesarios para que cada vez que el usuario pulse el bóton se desplacen las imágenes una posición a la derecha (la de imagen de la derecha del todo pasará a ser la primera imagen).
 
@@ -170,7 +170,7 @@ En este ejercicio también deberás aplicar el CSS y decidir cual será la estru
 
 El resultado final podría ser como el de la siguiente imagen:
 
-![Tablero ajedrez](assets/pr0404/pr0404.jpg)
+![Tablero ajedrez](../assets/pr0404/pr0404.jpg)
 
 **OPCIONAL**: Haz que cuando el usuario pulse sobre una casilla se muestre un mensaje en la propia página Web de la forma `Has pulsado en la casilla A5`.
 
@@ -189,7 +189,7 @@ Tienes que realizar una pequeña aplicación para mostrar notas en pantalla. Por
 En el siguiente vídeo puedes ver la funcionalidad básica de la aplicación.
 
 <video width="640" controls>
-    <source src="assets/videos/todo_01.mp4" type="video/mp4">
+    <source src="../assets/videos/todo_01.mp4" type="video/mp4">
     Tu navegador no soporta la reproducción de vídeo
 </video>
 
@@ -198,8 +198,8 @@ Algunas consideraciones a tener en cuenta:
 - Debes tener un array en el que irás almacenando todas las tareas realizadas por el usuario.
 - Cada vez que el usuario haga click en el botón de *Agregar* añades el contenido del campo de texto al array y llamas a una función que genere el HTML a partir del contenido del array.
 - Recursos:
-  - [HTML](assets/pr0411/pr0411.html)
-  - [CSS](assets/pr0411/pr0411.css)
+  - [HTML](../assets/pr0411/pr0411.html)
+  - [CSS](../assets/pr0411/pr0411.css)
 
 ---
 
@@ -208,7 +208,7 @@ Algunas consideraciones a tener en cuenta:
 Vamos a mejorar la aplicación del ejercicio anterior añadiendo un botón para poder eliminar cada tarea. En el siguiente vídeo puedes ver la aplicación en funcionamiento.
 
 <video width="640" controls>
-    <source src="assets/videos/todo_02.mp4" type="video/mp4">
+    <source src="../assets/videos/todo_02.mp4" type="video/mp4">
     Tu navegador no soporta la reproducción de vídeo
 </video>
 
@@ -221,11 +221,11 @@ Cosas que tienes que tener en cuenta:
 - Un problema que vas a encontrar es que desde la función activada por el *listener* puedes obtener toda la información del nodo correspondiente al botón, pero, ¿cómo sabes cuál es el elemento `<li>` que corresponde a dicho nodo? Una posible solución puede ser asignar a cada elemento `<li>` un atributo `id` único (por ejemplo una cadena aleatoria de 4 caracteres) y almacenar esa información también en el botón mediante un atributo `data-`.
 - Ese mismo identificador también te puede servir para localizar las tareas en el array guardado en memoria con todas las tareas, aunque esto obligará a que el array de tareas, en lugar de ser un array de cadenas, deberá ser un array de objetos, cada uno de ellos con una propiedad con el identificador y otra con el texto de la tarea.
 - Recursos:
-  - [CSS](assets/pr0412/pr0412.css)
+  - [CSS](../assets/pr0412/pr0412.css)
 
 Si utilizas la hoja de estilos facilitada ten en cuenta las clases y estructuras que utilices tiene que ser como se muestra en la siguiente imagen:
 
-![Código fuente HTML](assets/pr0412/codigo_fuente_html.jpg)
+![Código fuente HTML](../assets/pr0412/codigo_fuente_html.jpg)
 
 ---
 
@@ -238,7 +238,7 @@ Vamos a seguir mejorando la aplicación realizando los siguiente:
 
 
 <video width="640" controls>
-    <source src="assets/videos/todo_03.mp4" type="video/mp4">
+    <source src="../assets/videos/todo_03.mp4" type="video/mp4">
     Tu navegador no soporta la reproducción de vídeo
 </video>
 
@@ -250,7 +250,7 @@ En esta práctica vamos a diseñar una pequeña tienda online, por ejemplo, una 
 
 En esta primera práctica deberás mostrar los productos contenidos en el fichero JSON de forma similar a la siguiente imagen:
 
-![Resultado PR0414](assets/pr0414/resultado_pr0414.jpg)
+![Resultado PR0414](../assets/pr0414/resultado_pr0414.jpg)
 
 Algunas cuestiones que tienes que tener en cuenta:
 
@@ -258,9 +258,9 @@ Algunas cuestiones que tienes que tener en cuenta:
 
 Aquí tienes un listado de recursos que necesitas para la práctica. Solo se facilita el CSS y el HTML del armazón, el resto deberás diseñarlo y crearlo tú mismo.
 
-- [Listado de productos](assets/pr0414/productos.js)
-- [Armazón del fichero HTML](assets/pr0414/index.html)
-- [Hoja de estilos](assets/pr0414/style.css)
+- [Listado de productos](../assets/pr0414/productos.js)
+- [Armazón del fichero HTML](../assets/pr0414/index.html)
+- [Hoja de estilos](../assets/pr0414/style.css)
 - [Paleta de colores](https://colorhunt.co/palette/206a5d81b214ffcc29f58634)
 - [Diseño en Figma](https://www.figma.com/file/P1cR50rl4PNmVvPIKnIvuF/Fruter%C3%ADa-App-DAW)
 
@@ -272,7 +272,7 @@ Cuanto mejor planifiques tu página web más fácil te será programarla y menos
 
 En la siguiente imagen tienes un ejemplo de algunos diagramas que yo crearía para esta página. La imagen de la izquierda con lo que espero que sería el resultado final está realizada con [Figma](https://www.figma.com) mientras que el esquema con las clases e identificadores de cada elemento lo he realizado con [Lucidchart](https://www.lucidchart.com).
 
-![Diagrama de producto](assets/pr0414/detalle_producto.jpg)
+![Diagrama de producto](../assets/pr0414/detalle_producto.jpg)
 
 **Código ordenado**
 
@@ -289,6 +289,6 @@ Algunos consejos a tener en cuenta a este respecto son:
 
 ¿Has acabado pronto? Intenta implementar un sistema para mostrar los productos por páginas de forma que en cada página únicamente se muestren, por ejemplo, 8 productos y mostrar en la parte inferior un sistema de navegación entre páginas.
 
-![Navegación por páginas](assets/pr0414/resultado_navegacion_pr0414.jpg)
+![Navegación por páginas](../assets/pr0414/resultado_navegacion_pr0414.jpg)
 
 ---
